@@ -15,17 +15,18 @@ const MultiCardSlider = (value) => {
                     <MDBCarousel className="mt-5" activeItem={1} length={3} slide={true} showControls={true} showIndicators={true} multiItem>
                         <MDBCarouselInner>
                             <MDBRow>
-                                <MDBCarouselItem itemId="1">
+                                <MDBCarouselItem itemId="1" id="responsivecard">
 
                                 {RatedCardData.map(RatedCard)}
                                   
                                 </MDBCarouselItem>
-                                <MDBCarouselItem itemId="2">
+                                <MDBCarouselItem itemId="2" id="responsivecard1">
                                 {RatedCardData.map(RatedCard)}
                                 </MDBCarouselItem>
-                                <MDBCarouselItem itemId="3">
+                                <MDBCarouselItem itemId="3" id="responsivecard2">
                                 {RatedCardData.map(RatedCard)}
                                 </MDBCarouselItem>
+                                
                             </MDBRow>
                         </MDBCarouselInner>
                     </MDBCarousel>

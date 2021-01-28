@@ -669,7 +669,7 @@ header{
 	width: 10px;
 	padding: 5px;
 	border-radius: 50%;
-	background-color: #100435;
+	background-color: #100435 !important;
 }
 
 /* ///////// footer /////////// */
@@ -882,7 +882,7 @@ header{
 		padding: 0 15px;
 	}
 	.navbar-nav {padding: 10px 0;}
-	.carousel-control-next, .carousel-control-prev {display: none;}
+	.carousel-control-next, .carousel-control-prev {display: none !important;}
 	.home .carousel-caption h1 {font-size: 36px;}
 	.home .carousel-caption h3 {font-size: 22px;}
 	/* .navbar-light .navbar-nav {text-align: c;} */
@@ -890,7 +890,7 @@ header{
 	.navbar-light .navbar-nav .nav-link {padding: 0 10px !important;}
 	.navbar-light .navbar-nav a:last-child {padding-left: 10px}
 	.home_banner_cont {height: 45vh;}
-	.Card_Slider .carousel-multi-item .carousel-item .card {width: 280px; margin: 0 20px;}
+	.Card_Slider .carousel-multi-item .carousel-item .card {width: 230px; margin: 0 20px;}
 	.navbar-nav .dropdown-menu {position: absolute; top: 15px;}
 	.foot_logo {padding: 0 30px; text-align: center;}
 	.foot_logo p {text-align: center;}
@@ -900,4 +900,16 @@ header{
 	.contact_bg{max-width: 100%;}
 	.contact_info {right: 0;}
 	.contact_Form {right: 0; padding: 20px 0 0;}
+	.card {width: 260px;}
+	#responsivecard .col-md-3:nth-child(2) {display: none!important;}
+	#responsivecard .col-md-3:nth-child(3) {display: none!important;}
+	#responsivecard .col-md-3:nth-child(4) {display: none!important;}
+
+	#responsivecard1 .col-md-3:nth-child(1) {display: none!important;}
+	#responsivecard1 .col-md-3:nth-child(3) {display: none!important;}
+	#responsivecard1 .col-md-3:nth-child(4) {display: none!important;}
+
+	#responsivecard2 .col-md-3:nth-child(1) {display: none!important;}
+	#responsivecard2 .col-md-3:nth-child(2) {display: none!important;}
+	#responsivecard2 .col-md-3:nth-child(4) {display: none!important;}
 }
